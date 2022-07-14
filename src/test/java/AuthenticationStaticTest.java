@@ -9,7 +9,7 @@ import org.mockito.MockedStatic;
 public class AuthenticationStaticTest {
 
     @Test
-    public void verifyAuthenticationStatic(){
+    public void authenticationStatic(){
         MockedStatic<CredentialsStaticService> objectCredentialMocked= Mockito.mockStatic(CredentialsStaticService.class);
         MockedStatic<PermissionStaticService> objectPermissionMocked= Mockito.mockStatic(PermissionStaticService.class);
 
